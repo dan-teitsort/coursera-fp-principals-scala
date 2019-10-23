@@ -1,0 +1,27 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(funsets.FunSetSuite, sbt.ForkMain$SubclassFingerscan@2a8c4273, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements of each set[0m[0m
+[0m[[0minfo[0m] [0m[32m- intersect contains nothing when no common elements[0m[0m
+[0m[[0minfo[0m] [0m[32m- inserect contains input set intersected with itself[0m[0m
+[0m[[0minfo[0m] [0m[32m- inserect contains subset of elements appearing in both[0m[0m
+[0m[[0minfo[0m] [0m[32m- diff contains subset of elements appearing in first but not in second[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter contains subset of elements passing filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall works[0m[0m
+[0m[[0minfo[0m] [0m[32m- exist works[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 10 events.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 659 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0minfo[0m] [0mPassed: Total 10, Failed 0, Errors 0, Passed 10[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	funsets.FunSetSuite[0m
