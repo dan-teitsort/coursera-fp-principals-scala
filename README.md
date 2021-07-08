@@ -1,2 +1,2 @@
 # coursera-fp-principals-scala
-test1 repository
+Homework solutions from when I audited the [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1?specialization=scala) course from Coursera.
